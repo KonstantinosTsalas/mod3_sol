@@ -1,0 +1,7 @@
+  <ul>
+  	<li ng-repeat="item in items track by $index">
+  		{{item}}
+  		<button ng-click="onRemove({index: $index});">Don't want this one!</button>
+	</li>
+  </ul>
+  <div class="error">{{error}}</div>
